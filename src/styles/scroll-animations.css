@@ -1,4 +1,4 @@
-/* Animações de Scroll - TechSecure Solutions */
+/* Animações de Scroll - Cybernexus Technologies */
 
 /* Configurações gerais para animações */
 * {
@@ -193,4 +193,17 @@ img.animate-in {
         transform: none !important;
         opacity: 1 !important;
     }
+}
+
+/* Estilos adicionais para melhor aparência */
+.hover-text-primary:hover {
+    color: #0d6efd !important;
+}
+
+.scroll-to-top {
+    pointer-events: none;
+}
+
+.scroll-to-top:hover {
+    transform: scale(1.1);
 }
