@@ -1,3 +1,3 @@
-# Cybernexus Technologies - Vite React TypeScript
+# Cybernexus Technologies
 ---
 https://cybernexustechnologies.netlify.app/
