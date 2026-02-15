@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import ScrollAnimation from '../components/ScrollAnimation';
+import { Link} from 'react-router-dom';
 
 const Servicos: React.FC = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const Servicos: React.FC = () => {
       <ScrollAnimation />
       
       {/* Hero Section */}
-      <header className="text-white mt-5" style={{
+      <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
         minHeight: '50vh'
       }}>
@@ -44,7 +45,7 @@ const Servicos: React.FC = () => {
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Virtualização de servidores</li>
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Monitoramento 24/7</li>
               </ul>
-              <button className="btn btn-primary">Solicitar Orçamento</button>
+             <Link to="/contato" className="btn btn-primary">Solicitar Orçamento</Link>
             </div>
           </div>
         </div>
@@ -69,7 +70,7 @@ const Servicos: React.FC = () => {
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>VPN e conectividade segura</li>
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Otimização de banda</li>
               </ul>
-              <button className="btn btn-primary">Solicitar Orçamento</button>
+              <Link to="/contato" className="btn btn-primary">Solicitar Orçamento</Link>
             </div>
           </div>
         </div>
@@ -94,7 +95,7 @@ const Servicos: React.FC = () => {
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Auditoria de segurança</li>
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Gestão de identidade e acesso</li>
               </ul>
-              <button className="btn btn-primary">Solicitar Orçamento</button>
+              <Link to="/contato" className="btn btn-primary">Solicitar Orçamento</Link>
             </div>
           </div>
         </div>
@@ -119,7 +120,7 @@ const Servicos: React.FC = () => {
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Migração de dados</li>
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Otimização de custos cloud</li>
               </ul>
-              <button className="btn btn-primary">Solicitar Orçamento</button>
+              <Link to="/contato" className="btn btn-primary">Solicitar Orçamento</Link>
             </div>
           </div>
         </div>
@@ -144,7 +145,7 @@ const Servicos: React.FC = () => {
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Gestão de incidentes</li>
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Treinamento de equipes</li>
               </ul>
-              <button className="btn btn-primary">Solicitar Orçamento</button>
+              <Link to="/contato" className="btn btn-primary">Solicitar Orçamento</Link>
             </div>
           </div>
         </div>
@@ -169,7 +170,7 @@ const Servicos: React.FC = () => {
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Gestão de projetos</li>
                 <li className="mb-2"><i className="bi bi-check-circle-fill text-primary me-2"></i>Compliance e regulamentações</li>
               </ul>
-              <button className="btn btn-primary">Solicitar Orçamento</button>
+              <Link to="/contato" className="btn btn-primary">Solicitar Orçamento</Link>
             </div>
           </div>
         </div>
@@ -180,10 +181,10 @@ const Servicos: React.FC = () => {
         <div className="container text-center">
           <h2 className="mb-4">Pronto para começar?</h2>
           <p className="lead mb-4">Entre em contato conosco para uma avaliação gratuita de suas necessidades.</p>
-          <button className="btn btn-light btn-lg">
+          <Link to="/contato" className="btn btn-light btn-lg">
             Agendar Consulta
             <i className="bi bi-arrow-right ms-2"></i>
-          </button>
+          </Link>
         </div>
       </section>
     </>

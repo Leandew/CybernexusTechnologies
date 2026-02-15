@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ScrollAnimation from '../components/ScrollAnimation';
+import { Link } from 'react-router-dom';
 
 interface GalleryItem {
   id: number;
@@ -110,10 +111,10 @@ const Galeria: React.FC = () => {
         <div className="container text-center">
           <h2 className="mb-4">Quer ver mais projetos?</h2>
           <p className="lead mb-4">Entre em contato para conhecer nosso portfólio completo.</p>
-          <button className="btn btn-light btn-lg">
+          <Link to="/contato" className="btn btn-light btn-lg">
             Solicitar Portfólio Completo
             <i className="bi bi-arrow-right ms-2"></i>
-          </button>
+          </Link>
         </div>
       </section>
     </>
