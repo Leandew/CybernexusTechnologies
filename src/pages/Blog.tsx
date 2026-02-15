@@ -21,7 +21,7 @@ const Blog: React.FC = () => {
       author: 'Maria Santos',
       date: '15 de Fevereiro de 2024',
       category: 'Segurança',
-      image: '/img/cyber.jpg'
+      image: '/img/blog1.jpg'
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Blog: React.FC = () => {
       author: 'João Silva',
       date: '10 de Fevereiro de 2024',
       category: 'Cloud',
-      image: '/img/datacenter-modern.jpg'
+      image: '/img/blog2.jpg'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Blog: React.FC = () => {
       author: 'Carlos Oliveira',
       date: '05 de Fevereiro de 2024',
       category: 'Redes',
-      image: '/img/network-infrastructure.png'
+      image: '/img/blog3.jpg'
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ const Blog: React.FC = () => {
       author: 'Ana Costa',
       date: '01 de Fevereiro de 2024',
       category: 'Infraestrutura',
-      image: '/img/datacenter.jpg'
+      image: '/img/blog4.jpg'
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ const Blog: React.FC = () => {
       author: 'Maria Santos',
       date: '28 de Janeiro de 2024',
       category: 'Segurança',
-      image: '/img/cyber.jpg'
+      image: '/img/blog5.jpg'
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ const Blog: React.FC = () => {
       author: 'João Silva',
       date: '25 de Janeiro de 2024',
       category: 'Consultoria',
-      image: '/img/consulting.jpg'
+      image: '/img/blog6.jpg'
     }
   ];
 

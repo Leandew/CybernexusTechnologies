@@ -15,13 +15,11 @@ const Galeria: React.FC = () => {
 
   const galleryItems: GalleryItem[] = [
     { id: 1, title: 'Data Center Moderno', category: 'infraestrutura', image: '/img/datacenter.jpg' },
-    { id: 2, title: 'Rede Corporativa', category: 'redes', image: '/img/network-infrastructure.png' },
-    { id: 3, title: 'Cibersegurança', category: 'seguranca', image: '/img/cyber.jpg' },
-    { id: 4, title: 'Cloud Computing', category: 'cloud', image: '/img/datacenter-modern.jpg' },
+    { id: 2, title: 'Rede Corporativa', category: 'redes', image: '/img/redes.jpg' },
+    { id: 3, title: 'Cibersegurança', category: 'seguranca', image: '/img/cybersecurity.jpeg' },
+    { id: 4, title: 'Cloud Computing', category: 'cloud', image: '/img/cloud.png' },
     { id: 5, title: 'Suporte Técnico', category: 'suporte', image: '/img/support.jpg' },
     { id: 6, title: 'Consultoria', category: 'consultoria', image: '/img/consulting.jpg' },
-    { id: 7, title: 'Infraestrutura Avançada', category: 'infraestrutura', image: '/img/datacenter-infrastructure.png' },
-    { id: 8, title: 'Rede Cisco', category: 'redes', image: '/img/network-cisco.jpg' },
   ];
 
   useEffect(() => {

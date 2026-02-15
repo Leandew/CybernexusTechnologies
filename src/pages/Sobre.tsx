@@ -55,7 +55,7 @@ const Sobre: React.FC = () => {
             <div className="col-md-4">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body text-center p-4">
-                  <i className="bi bi-target display-4 text-primary mb-3"></i>
+                  <i className="bi bi-bullseye display-4 text-primary mb-3"></i>
                   <h5 className="card-title fw-bold">Missão</h5>
                   <p className="card-text">Fornecer soluções de TI inovadoras e seguras que permitam nossos clientes crescer e prosperar no mundo digital.</p>
                 </div>
@@ -93,7 +93,7 @@ const Sobre: React.FC = () => {
           <div className="row g-4">
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/img1.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/joao.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">João Silva</h5>
                   <p className="card-text text-muted">Diretor Técnico</p>
@@ -103,7 +103,7 @@ const Sobre: React.FC = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/img2.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/Maria.png" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Maria Santos</h5>
                   <p className="card-text text-muted">Gerente de Segurança</p>
@@ -113,7 +113,7 @@ const Sobre: React.FC = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/img3.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/carlos.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Carlos Oliveira</h5>
                   <p className="card-text text-muted">Engenheiro de Redes</p>
@@ -123,7 +123,7 @@ const Sobre: React.FC = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/img6.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/Ana.png" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Ana Costa</h5>
                   <p className="card-text text-muted">Consultora Estratégica</p>

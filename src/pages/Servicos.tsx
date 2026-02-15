@@ -56,7 +56,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src="/img/network-infrastructure.png" className="img-fluid rounded shadow" alt="Redes Corporativas" />
+              <img src="/img/redes.jpg" className="img-fluid rounded shadow" alt="Redes Corporativas" />
             </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="mb-4">Redes Corporativas</h2>
@@ -81,7 +81,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="/img/cyber.jpg" className="img-fluid rounded shadow" alt="Cibersegurança" />
+              <img src="/img/cybersecurity.jpeg" className="img-fluid rounded shadow" alt="Cibersegurança" />
             </div>
             <div className="col-lg-6">
               <h2 className="mb-4">Cibersegurança</h2>
@@ -106,7 +106,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src="/img/datacenter-modern.jpg" className="img-fluid rounded shadow" alt="Cloud Computing" />
+              <img src="/img/cloud.png" className="img-fluid rounded shadow" alt="Cloud Computing" />
             </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="mb-4">Cloud Computing</h2>
