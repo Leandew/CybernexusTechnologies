@@ -11,13 +11,13 @@ const Sobre: React.FC = () => {
       <ScrollAnimation />
       
       {/* Hero Section */}
-      <header className="text-white mt-5" style={{
+      <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
-        minHeight: '50vh'
+        minHeight: '40h'
       }}>
         <div className="container">
-          <div className="row align-items-center" style={{ minHeight: '50vh' }}>
-            <div className="col-lg-8">
+          <div className="row align-items-center" style={{ minHeight: '40vh' }}>
+            <div className="col-lg-13">
               <h1 className="display-4 fw-bold mb-4">Sobre Cybernexus Technologies</h1>
               <p className="lead">Somos especialistas em infraestrutura de TI, redes e cibersegurança com mais de 10 anos de experiência no mercado.</p>
             </div>
@@ -30,7 +30,7 @@ const Sobre: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="/img/about-us.jpg" className="img-fluid rounded shadow" alt="Nossa história" />
+              <img src="/img/about-us.webp" loading="lazy" className="img-fluid rounded shadow" alt="Nossa história" />
             </div>
             <div className="col-lg-6">
               <h2 className="mb-4">Nossa História</h2>
@@ -93,7 +93,7 @@ const Sobre: React.FC = () => {
           <div className="row g-4">
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/joao.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/joao.webp" loading="lazy" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">João Silva</h5>
                   <p className="card-text text-muted">Diretor Técnico</p>
@@ -103,7 +103,7 @@ const Sobre: React.FC = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/Maria.png" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/Maria.webp" loading="lazy" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Maria Santos</h5>
                   <p className="card-text text-muted">Gerente de Segurança</p>
@@ -113,7 +113,7 @@ const Sobre: React.FC = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/carlos.jpg" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/carlos.webp" loading="lazy" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Carlos Oliveira</h5>
                   <p className="card-text text-muted">Engenheiro de Redes</p>
@@ -123,7 +123,7 @@ const Sobre: React.FC = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="card h-100 text-center border-0 shadow-sm">
-                <img src="/img/Ana.png" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="/img/Ana.webp" loading="lazy" className="card-img-top" alt="Especialista" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Ana Costa</h5>
                   <p className="card-text text-muted">Consultora Estratégica</p>

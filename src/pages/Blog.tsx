@@ -21,7 +21,7 @@ const Blog: React.FC = () => {
       author: 'Maria Santos',
       date: '15 de Fevereiro de 2024',
       category: 'Segurança',
-      image: '/img/blog1.jpg'
+      image: '/img/blog1.webp'
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Blog: React.FC = () => {
       author: 'João Silva',
       date: '10 de Fevereiro de 2024',
       category: 'Cloud',
-      image: '/img/blog2.jpg'
+      image: '/img/blog2.webp'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Blog: React.FC = () => {
       author: 'Carlos Oliveira',
       date: '05 de Fevereiro de 2024',
       category: 'Redes',
-      image: '/img/blog3.jpg'
+      image: '/img/blog3.webp'
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ const Blog: React.FC = () => {
       author: 'Ana Costa',
       date: '01 de Fevereiro de 2024',
       category: 'Infraestrutura',
-      image: '/img/blog4.jpg'
+      image: '/img/blog4.webp'
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ const Blog: React.FC = () => {
       author: 'Maria Santos',
       date: '28 de Janeiro de 2024',
       category: 'Segurança',
-      image: '/img/blog5.jpg'
+      image: '/img/blog5.webp'
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ const Blog: React.FC = () => {
       author: 'João Silva',
       date: '25 de Janeiro de 2024',
       category: 'Consultoria',
-      image: '/img/blog6.jpg'
+      image: '/img/blog6.webp'
     }
   ];
 
@@ -79,12 +79,12 @@ const Blog: React.FC = () => {
       <ScrollAnimation />
       
       {/* Hero Section */}
-      <header className="text-white mt-5" style={{
+      <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
-        minHeight: '50vh'
+        minHeight: '40vh'
       }}>
         <div className="container">
-          <div className="row align-items-center" style={{ minHeight: '50vh' }}>
+          <div className="row align-items-center" style={{ minHeight: '40vh' }}>
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-4">Blog Cybernexus</h1>
               <p className="lead">Artigos, dicas e insights sobre TI, redes e cibersegurança.</p>
@@ -100,7 +100,7 @@ const Blog: React.FC = () => {
             {blogPosts.map(post => (
               <div key={post.id} className="col-lg-4 col-md-6">
                 <article className="blog-item card h-100 border-0 shadow-sm overflow-hidden">
-                  <img src={post.image} className="card-img-top" alt={post.title} style={{ height: '200px', objectFit: 'cover' }} />
+                  <img src={post.image} loading="lazy" className="card-img-top" alt={post.title} style={{ height: '200px', objectFit: 'cover' }} />
                   <div className="card-body d-flex flex-column">
                     <div className="mb-2">
                       <span className="badge bg-primary">{post.category}</span>

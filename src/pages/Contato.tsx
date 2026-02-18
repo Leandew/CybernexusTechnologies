@@ -55,12 +55,12 @@ const Contato: React.FC = () => {
       <ScrollAnimation />
       
       {/* Hero Section */}
-      <header className="text-white mt-5" style={{
+      <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
-        minHeight: '50vh'
+        minHeight: '40vh'
       }}>
         <div className="container">
-          <div className="row align-items-center" style={{ minHeight: '50vh' }}>
+          <div className="row align-items-center" style={{ minHeight: '40vh' }}>
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-4">Entre em Contato</h1>
               <p className="lead">Estamos prontos para ajudar sua empresa a crescer com segurança e eficiência.</p>

@@ -9,7 +9,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   const handleClose = () => setIsOpen(false);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">
           <i className="bi bi-shield-lock-fill me-2 text-primary"></i>

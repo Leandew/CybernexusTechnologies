@@ -12,12 +12,12 @@ const Home: React.FC = () => {
       <ScrollAnimation />
       
       {/* Hero Section */}
-      <header className="text-white mt-5" style={{
+      <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
-        minHeight: '100vh'
+        minHeight: '90vh'
       }}>
         <div className="container">
-          <div className="row align-items-center" style={{ minHeight: '100vh' }}>
+          <div className="row align-items-center" style={{ minHeight: '80vh' }}>
             <div className="col-lg-6">
               <h1 className="display-4 fw-bold mb-4">Infraestrutura de TI, Redes e Cibersegurança</h1>
               <p className="lead mb-4">Protegendo e otimizando sua empresa no mundo digital com soluções inovadoras e seguras</p>
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="/img/about-us.jpg" className="img-fluid rounded shadow" alt="Equipe trabalhando" />
+              <img src="/img/about-us.webp" loading="lazy" className="img-fluid rounded shadow" alt="Equipe trabalhando" />
             </div>
             <div className="col-lg-6">
               <h2 className="mb-4">Quem Somos</h2>
@@ -105,7 +105,7 @@ const Home: React.FC = () => {
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
               <div className="card h-100 border-0 shadow-sm">
-                <img src="/img/datacenter.jpg" className="card-img-top" alt="Infraestrutura de TI" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/datacenter.webp" loading="lazy" className="card-img-top" alt="Infraestrutura de TI" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Infraestrutura de TI</h5>
                   <p className="card-text">Data centers, servidores e soluções de alta disponibilidade sob medida para sua empresa.</p>
@@ -116,7 +116,7 @@ const Home: React.FC = () => {
             
             <div className="col-lg-4 col-md-6">
               <div className="card h-100 border-0 shadow-sm">
-                <img src="/img/redes.jpg" className="card-img-top" alt="Redes Corporativas" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/redes.webp" loading="lazy" className="card-img-top" alt="Redes Corporativas" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Redes Corporativas</h5>
                   <p className="card-text">Cabeamento estruturado, redes Wi-Fi seguras e monitoramento em tempo real.</p>
@@ -127,7 +127,7 @@ const Home: React.FC = () => {
             
             <div className="col-lg-4 col-md-6">
               <div className="card h-100 border-0 shadow-sm">
-                <img src="/img/cybersecurity.jpeg" className="card-img-top" alt="Cibersegurança" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/cybersecurity.webp" loading="lazy" className="card-img-top" alt="Cibersegurança" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Cibersegurança</h5>
                   <p className="card-text">Auditoria, firewall, criptografia e proteção contra ameaças digitais.</p>
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
             
             <div className="col-lg-4 col-md-6">
               <div className="card h-100 border-0 shadow-sm">
-                <img src="/img/cloud.png" className="card-img-top" alt="Cloud Computing" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/cloud.webp" loading="lazy" className="card-img-top" alt="Cloud Computing" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Cloud Computing</h5>
                   <p className="card-text">Migração e gerenciamento de serviços em nuvem (AWS, Azure, Google Cloud).</p>
@@ -149,7 +149,7 @@ const Home: React.FC = () => {
             
             <div className="col-lg-4 col-md-6">
               <div className="card h-100 border-0 shadow-sm">
-                <img src="/img/support.jpg" className="card-img-top" alt="Suporte Técnico" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/support.webp" loading="lazy" className="card-img-top" alt="Suporte Técnico" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Suporte Técnico</h5>
                   <p className="card-text">Atendimento especializado e suporte contínuo para sua equipe.</p>
@@ -160,7 +160,7 @@ const Home: React.FC = () => {
             
             <div className="col-lg-4 col-md-6">
               <div className="card h-100 border-0 shadow-sm">
-                <img src="/img/consulting.jpg" className="card-img-top" alt="Consultoria Estratégica" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/consulting.webp" loading="lazy" className="card-img-top" alt="Consultoria Estratégica" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">Consultoria Estratégica</h5>
                   <p className="card-text">Orientação para otimizar seus investimentos em tecnologia.</p>

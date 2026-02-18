@@ -14,10 +14,10 @@ const Servicos: React.FC = () => {
       {/* Hero Section */}
       <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
-        minHeight: '50vh'
+        minHeight: '40vh'
       }}>
         <div className="container">
-          <div className="row align-items-center" style={{ minHeight: '50vh' }}>
+          <div className="row align-items-center" style={{ minHeight: '40vh' }}>
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-4">Nossos Serviços</h1>
               <p className="lead">Soluções completas em infraestrutura de TI, redes e cibersegurança para sua empresa.</p>
@@ -31,7 +31,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="/img/datacenter.jpg" className="img-fluid rounded shadow" alt="Infraestrutura de TI" />
+              <img src="/img/datacenter.webp" loading="lazy" className="img-fluid rounded shadow" alt="Infraestrutura de TI" />
             </div>
             <div className="col-lg-6">
               <h2 className="mb-4">Infraestrutura de TI</h2>
@@ -56,7 +56,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src="/img/redes.jpg" className="img-fluid rounded shadow" alt="Redes Corporativas" />
+              <img src="/img/redes.webp" loading="lazy" className="img-fluid rounded shadow" alt="Redes Corporativas" />
             </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="mb-4">Redes Corporativas</h2>
@@ -81,7 +81,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="/img/cybersecurity.jpeg" className="img-fluid rounded shadow" alt="Cibersegurança" />
+              <img src="/img/cybersecurity.webp" loading="lazy" className="img-fluid rounded shadow" alt="Cibersegurança" />
             </div>
             <div className="col-lg-6">
               <h2 className="mb-4">Cibersegurança</h2>
@@ -106,7 +106,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src="/img/cloud.png" className="img-fluid rounded shadow" alt="Cloud Computing" />
+              <img src="/img/cloud.webp" loading="lazy" className="img-fluid rounded shadow" alt="Cloud Computing" />
             </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="mb-4">Cloud Computing</h2>
@@ -131,7 +131,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="/img/support.jpg" className="img-fluid rounded shadow" alt="Suporte Técnico" />
+              <img src="/img/support.webp" loading="lazy" className="img-fluid rounded shadow" alt="Suporte Técnico" />
             </div>
             <div className="col-lg-6">
               <h2 className="mb-4">Suporte Técnico</h2>
@@ -156,7 +156,7 @@ const Servicos: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src="/img/consulting.jpg" className="img-fluid rounded shadow" alt="Consultoria Estratégica" />
+              <img src="/img/consulting.webp" loading="lazy" className="img-fluid rounded shadow" alt="Consultoria Estratégica" />
             </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="mb-4">Consultoria Estratégica</h2>

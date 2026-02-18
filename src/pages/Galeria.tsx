@@ -14,12 +14,12 @@ const Galeria: React.FC = () => {
   const [filteredItems, setFilteredItems] = useState<GalleryItem[]>([]);
 
   const galleryItems: GalleryItem[] = [
-    { id: 1, title: 'Data Center Moderno', category: 'infraestrutura', image: '/img/datacenter.jpg' },
-    { id: 2, title: 'Rede Corporativa', category: 'redes', image: '/img/redes.jpg' },
-    { id: 3, title: 'Cibersegurança', category: 'seguranca', image: '/img/cybersecurity.jpeg' },
-    { id: 4, title: 'Cloud Computing', category: 'cloud', image: '/img/cloud.png' },
-    { id: 5, title: 'Suporte Técnico', category: 'suporte', image: '/img/support.jpg' },
-    { id: 6, title: 'Consultoria', category: 'consultoria', image: '/img/consulting.jpg' },
+    { id: 1, title: 'Data Center Moderno', category: 'infraestrutura', image: '/img/datacenter.webp' },
+    { id: 2, title: 'Rede Corporativa', category: 'redes', image: '/img/redes.webp' },
+    { id: 3, title: 'Cibersegurança', category: 'seguranca', image: '/img/cybersecurity.webp' },
+    { id: 4, title: 'Cloud Computing', category: 'cloud', image: '/img/cloud.webp' },
+    { id: 5, title: 'Suporte Técnico', category: 'suporte', image: '/img/support.webp' },
+    { id: 6, title: 'Consultoria', category: 'consultoria', image: '/img/consulting.webp' },
   ];
 
   useEffect(() => {
@@ -49,12 +49,12 @@ const Galeria: React.FC = () => {
       <ScrollAnimation />
       
       {/* Hero Section */}
-      <header className="text-white mt-5" style={{
+      <header className="text-white" style={{
         background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a90e2 100%)',
-        minHeight: '50vh'
+        minHeight: '40vh'
       }}>
         <div className="container">
-          <div className="row align-items-center" style={{ minHeight: '50vh' }}>
+          <div className="row align-items-center" style={{ minHeight: '40vh' }}>
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-4">Galeria de Projetos</h1>
               <p className="lead">Conheça alguns dos nossos projetos e soluções implementadas.</p>
@@ -91,7 +91,7 @@ const Galeria: React.FC = () => {
             {filteredItems.map(item => (
               <div key={item.id} className="col-lg-4 col-md-6">
                 <div className="gallery-item card h-100 border-0 shadow-sm overflow-hidden">
-                  <img src={item.image} className="card-img-top" alt={item.title} style={{ height: '250px', objectFit: 'cover' }} />
+                  <img src={item.image} loading="lazy" className="card-img-top" alt={item.title} style={{ height: '250px', objectFit: 'cover' }} />
                   <div className="card-body">
                     <h5 className="card-title">{item.title}</h5>
                     <p className="card-text text-muted text-capitalize">{item.category}</p>
