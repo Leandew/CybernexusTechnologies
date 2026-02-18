@@ -1,4 +1,6 @@
-# 🚀 Cybernexus Technologies
+# 🚀 Cybernexus Technologies 
+
+Deploy em: https://cybernexustechnologies.netlify.app/
 
 Website institucional fictício da **Cybernexus Technologies**,
 desenvolvido com foco em apresentação de serviços de tecnologia,
